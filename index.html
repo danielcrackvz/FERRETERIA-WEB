@@ -2,26 +2,37 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Ferretería Don Daniel</title>
+  <title>Ferretería Emanuel</title>
   <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
   <header>
-    <h1>Ferretería Don Daniel</h1>
+    <h1>Ferretería Emanuel</h1>
     <nav>
       <a href="#">Inicio</a>
-      <a href="#">Productos</a>
-      <a href="#">Contacto</a>
+      <a href="#productos">Productos</a>
+      <a href="#contacto">Contacto</a>
     </nav>
   </header>
 
   <main>
-    <h2>Nuestros productos</h2>
+    <h2 id="productos">Nuestros productos</h2>
     <div id="contenedor-productos"></div>
   </main>
 
+  <!-- Sección contacto con WhatsApp -->
+  <section id="contacto" style="text-align:center; padding:20px;">
+    <h2>Contáctanos</h2>
+    <p>¿Tienes alguna pregunta? Escríbenos directamente por WhatsApp:</p>
+    <a href="https://wa.me/59178572424" target="_blank">
+      <button style="background-color:#25D366; color:white; border:none; padding:10px 20px; font-size:16px;">
+        📱 Chatear por WhatsApp
+      </button>
+    </a>
+  </section>
+
   <footer>
-    <p>&copy; 2025 Ferretería Don Daniel</p>
+    <p>&copy; 2025 Ferretería Emanuel</p>
   </footer>
 
   <script src="script.js"></script>
